@@ -1,6 +1,4 @@
 
-Hello! OMG, I totally got you! Explaining my project? Easy-peasy! And making it sound like a super-geeky, totally-me explanation? Challenge accepted! 🎮✨
-
 💻 My Awesome Web Project: "Wonderful Whispers"
 Okay, so this isn't just a website; it's my Personal Travel Blog + Portfolio. Think of it as my little corner of the internet where I dump all the cute, magical stuff from my travels. But the real game is how I built it. I used the classic duo: HTML for the structure and CSS for the style!
 
