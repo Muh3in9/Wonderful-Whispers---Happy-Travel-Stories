@@ -1,0 +1,153 @@
+body {
+    font-family: 'Segoe Print', cursive, sans-serif;
+    margin: 20px;
+    background-color: #e0f7fa; /* Light Cyan - very light */
+    color: #4dd0e1; /* Light Cyan - gentle */
+    line-height: 1.6;
+    text-align: center;
+}
+
+header {
+    background-color: #b2ebf2; /* Light Blue - very light */
+    color: #00bcd4; /* Cyan - gentle */
+    padding: 30px 20px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+header h1 {
+    font-size: 2.8em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f1f8e9; /* Light Green - very very light */
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.featured-post {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #c8e6c9; /* Light Green - light */
+    border-radius: 10px;
+}
+
+.featured-post h2 {
+    color: #388e3c;
+    font-size: 2.2em;
+    margin-bottom: 15px;
+}
+
+.featured-post img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.03);
+    margin-bottom: 15px;
+}
+
+.featured-post .excerpt {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.read-more {
+    display: inline-block;
+    background-color: #a5d6a7; /* Light Green */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 1em;
+}
+
+.read-more:hover {
+    background-color: #8bc34a;
+}
+
+.recent-posts h2 {
+    color: #388e3c;
+    font-size: 2em;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.post-card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding-top: 15px;
+}
+
+.post-card {
+    background-color: #e0f2f7; /* Light Cyan - very light */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.03);
+    text-align: left;
+}
+
+.post-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.post-card h3 {
+    color: #00bcd4;
+    font-size: 1.3em;
+    margin-bottom: 5px;
+}
+
+.post-card .excerpt {
+    font-size: 0.95em;
+    color: #4dd0e1;
+    margin-bottom: 10px;
+}
+
+.about-me {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #c8e6c9; /* Light Green - light */
+    border-radius: 10px;
+    text-align: center;
+}
+
+.about-me h2 {
+    color: #388e3c;
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.about-me img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.about-me p {
+    font-size: 1.1em;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+    background-color: #b2ebf2;
+    color: #00bcd4;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.05);
+    font-size: 0.9em;
+}
